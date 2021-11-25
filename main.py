@@ -1,4 +1,5 @@
 import evaluator
+import display
 
 board = [
     [6, 2, 8, 7, 3, 5, 9, 1, 4],
@@ -14,3 +15,4 @@ board = [
 
 if __name__ == "__main__":
     print(evaluator.check(board))
+    display.draw(board)
